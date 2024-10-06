@@ -32,7 +32,7 @@ else
 fi
 ```
 
-Reference: http://stackoverflow.com/questions/696839/how-do-i-write-a-bash-script-to-restart-a-process-if-it-dies
+Reference: <http://stackoverflow.com/questions/696839/how-do-i-write-a-bash-script-to-restart-a-process-if-it-dies>
 
 
 ### Kill process by port:
@@ -72,7 +72,7 @@ du -hs /var/log/journal/
 find . -name "foo.log*"
 
 
-cd /var/log/grnc_hub/$(date +%Y)/$(date +%m)/ && find . -name "hotelbeds_si_new.*"
+cd /var/log/nginx/$(date +%Y)/$(date +%m)/ && find . -name "http_.*"
 
 
 #Delete with pattern
